@@ -1,4 +1,6 @@
 APIKey = "Api Key"
+// sign up and generate Api Keys From 
+// https://api.themoviedb.org
 const APIURL =
     `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${APIKey}&page=1`;
 const IMGPATH = "https://image.tmdb.org/t/p/w1280";
